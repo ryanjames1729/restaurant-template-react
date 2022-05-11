@@ -1,0 +1,217 @@
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+} */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  background: #242331;
+}
+
+#App {
+  font-family: sans-serif;
+
+  /* Give app full page to work with */
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+	display: block;
+	height: 32px;
+	width: 32px;
+	top: 20px;
+	left: 20px;
+	z-index: 5;
+	cursor: pointer;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+body h1{
+	font-size:2em;
+	font-weight:bold;
+	margin:0;
+	padding:0.5rem;
+}
+
+.container {
+  max-width: 1050px;
+  width: 90%;
+  margin: auto;
+}
+
+.mainSection {
+  height: 100vh;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.menuItem {
+  background-color: #242331;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(auto-fit);
+  box-shadow: 1px 1px 1px 0.5px #000;
+}
+
+.contact {
+	background: #242331;
+	color: #DDCA7D;
+}
+
+.contact a{
+  color:#DDCA7D;
+  text-decoration: none;
+}
+
+.contact a:hover{
+  color:#A8DADC;
+  text-decoration: none;
+  font-size: 125%;
+}
+
+.contact ul{
+  padding: 0;
+  list-style: none;
+}
+
+.contact li{
+  display: inline;
+}
+
+#starters {
+  background-color: #A27035;
+  color: #fff;
+}
+
+#mainDish{
+	background-color: #B88B4A;
+	color: #DDCA7D;
+}
+
+#drinks {
+	background-color: #533E2D;
+	color: #DDCA7D;
+}
+
+#sweets {
+  background: #242331;
+	color:#DDCA7D;
+}
+
+#showcase{
+	background-image:url('background.jpg');
+	background-position:center;
+	text-align: center;
+	height: 100vh;
+}
+
+#mainFooter{
+	background: #242331;
+	color:#f1faee;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+
+	background-image:url('bottom.jpg');
+	background-position:center right;
+	margin-bottom:30px;
+	text-align: center;
+	min-height: 100vh;
+}
+
+#mainFooter a{
+    color:#f1faee;
+    text-decoration: none;
+}
+
+#mainFooter a:hover{
+    color:#A8DADC;
+    text-decoration: none;
+    font-size: 125%;
+}
