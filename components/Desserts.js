@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 const Desserts = ({ items }) => {
 
     return (
-        <div className="mainSection" id="sweets">
+        <div className="mainSection" id="desserts">
             <div className="container">
                 <h1>Sweet Treats</h1>   
                 <div className="menu">
